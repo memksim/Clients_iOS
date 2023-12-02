@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0425A3632B1B38CB003D581C /* ServicesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425A3622B1B38CB003D581C /* ServicesListViewController.swift */; };
+		0425A3652B1B3BD7003D581C /* ServiceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425A3642B1B3BD7003D581C /* ServiceInfoViewController.swift */; };
+		0425A3692B1B442B003D581C /* NewServiceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425A3682B1B442B003D581C /* NewServiceInfoViewController.swift */; };
+		043E81BC2B18AE1E00682D52 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E81BB2B18AE1E00682D52 /* NewAccountViewController.swift */; };
+		043E81BE2B18B35000682D52 /* AccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E81BD2B18B35000682D52 /* AccountInfoViewController.swift */; };
+		043E81C02B18B53F00682D52 /* AddServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E81BF2B18B53F00682D52 /* AddServiceViewController.swift */; };
+		043E81C22B18B7B500682D52 /* RequestInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E81C12B18B7B500682D52 /* RequestInfoViewController.swift */; };
+		043E81C42B18B7F200682D52 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E81C32B18B7F200682D52 /* CreateRequestViewController.swift */; };
+		0453461D2B18566C000E7C76 /* ClientsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453461C2B18566C000E7C76 /* ClientsListViewController.swift */; };
+		0453461F2B18742B000E7C76 /* NewClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453461E2B18742B000E7C76 /* NewClientViewController.swift */; };
+		045346212B188699000E7C76 /* ClientInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045346202B188699000E7C76 /* ClientInfoViewController.swift */; };
 		04777E212B176B2600A25310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E202B176B2600A25310 /* AppDelegate.swift */; };
 		04777E232B176B2600A25310 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E222B176B2600A25310 /* SceneDelegate.swift */; };
 		04777E252B176B2600A25310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E242B176B2600A25310 /* ViewController.swift */; };
@@ -14,9 +25,25 @@
 		04777E2B2B176B2600A25310 /* Clients.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04777E292B176B2600A25310 /* Clients.xcdatamodeld */; };
 		04777E2D2B176B2800A25310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04777E2C2B176B2800A25310 /* Assets.xcassets */; };
 		04777E302B176B2800A25310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04777E2E2B176B2800A25310 /* LaunchScreen.storyboard */; };
+		04777E412B176CCE00A25310 /* Client+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E392B176CCE00A25310 /* Client+CoreDataProperties.swift */; };
+		04777E432B176CCE00A25310 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E3B2B176CCE00A25310 /* Service+CoreDataProperties.swift */; };
+		04777E452B176CCE00A25310 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E3D2B176CCE00A25310 /* Account+CoreDataProperties.swift */; };
+		04777E472B176CCE00A25310 /* Request+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E3F2B176CCE00A25310 /* Request+CoreDataProperties.swift */; };
+		04777E492B176DE400A25310 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04777E482B176DE400A25310 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0425A3622B1B38CB003D581C /* ServicesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListViewController.swift; sourceTree = "<group>"; };
+		0425A3642B1B3BD7003D581C /* ServiceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfoViewController.swift; sourceTree = "<group>"; };
+		0425A3682B1B442B003D581C /* NewServiceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServiceInfoViewController.swift; sourceTree = "<group>"; };
+		043E81BB2B18AE1E00682D52 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		043E81BD2B18B35000682D52 /* AccountInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoViewController.swift; sourceTree = "<group>"; };
+		043E81BF2B18B53F00682D52 /* AddServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceViewController.swift; sourceTree = "<group>"; };
+		043E81C12B18B7B500682D52 /* RequestInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInfoViewController.swift; sourceTree = "<group>"; };
+		043E81C32B18B7F200682D52 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
+		0453461C2B18566C000E7C76 /* ClientsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsListViewController.swift; sourceTree = "<group>"; };
+		0453461E2B18742B000E7C76 /* NewClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientViewController.swift; sourceTree = "<group>"; };
+		045346202B188699000E7C76 /* ClientInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoViewController.swift; sourceTree = "<group>"; };
 		04777E1D2B176B2600A25310 /* Clients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04777E202B176B2600A25310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04777E222B176B2600A25310 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +53,11 @@
 		04777E2C2B176B2800A25310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04777E2F2B176B2800A25310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04777E312B176B2800A25310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04777E392B176CCE00A25310 /* Client+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04777E3B2B176CCE00A25310 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04777E3D2B176CCE00A25310 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04777E3F2B176CCE00A25310 /* Request+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04777E482B176DE400A25310 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 		04777E1F2B176B2600A25310 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
+				04777E372B176CA700A25310 /* CoreDataModel */,
 				04777E202B176B2600A25310 /* AppDelegate.swift */,
 				04777E222B176B2600A25310 /* SceneDelegate.swift */,
 				04777E242B176B2600A25310 /* ViewController.swift */,
@@ -66,8 +99,31 @@
 				04777E2E2B176B2800A25310 /* LaunchScreen.storyboard */,
 				04777E312B176B2800A25310 /* Info.plist */,
 				04777E292B176B2600A25310 /* Clients.xcdatamodeld */,
+				04777E482B176DE400A25310 /* CoreDataManager.swift */,
+				0453461C2B18566C000E7C76 /* ClientsListViewController.swift */,
+				0453461E2B18742B000E7C76 /* NewClientViewController.swift */,
+				045346202B188699000E7C76 /* ClientInfoViewController.swift */,
+				043E81BB2B18AE1E00682D52 /* NewAccountViewController.swift */,
+				043E81BD2B18B35000682D52 /* AccountInfoViewController.swift */,
+				043E81BF2B18B53F00682D52 /* AddServiceViewController.swift */,
+				043E81C12B18B7B500682D52 /* RequestInfoViewController.swift */,
+				043E81C32B18B7F200682D52 /* CreateRequestViewController.swift */,
+				0425A3622B1B38CB003D581C /* ServicesListViewController.swift */,
+				0425A3642B1B3BD7003D581C /* ServiceInfoViewController.swift */,
+				0425A3682B1B442B003D581C /* NewServiceInfoViewController.swift */,
 			);
 			path = Clients;
+			sourceTree = "<group>";
+		};
+		04777E372B176CA700A25310 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				04777E392B176CCE00A25310 /* Client+CoreDataProperties.swift */,
+				04777E3B2B176CCE00A25310 /* Service+CoreDataProperties.swift */,
+				04777E3D2B176CCE00A25310 /* Account+CoreDataProperties.swift */,
+				04777E3F2B176CCE00A25310 /* Request+CoreDataProperties.swift */,
+			);
+			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +199,24 @@
 			files = (
 				04777E252B176B2600A25310 /* ViewController.swift in Sources */,
 				04777E212B176B2600A25310 /* AppDelegate.swift in Sources */,
+				04777E472B176CCE00A25310 /* Request+CoreDataProperties.swift in Sources */,
+				045346212B188699000E7C76 /* ClientInfoViewController.swift in Sources */,
+				0425A3632B1B38CB003D581C /* ServicesListViewController.swift in Sources */,
+				043E81BC2B18AE1E00682D52 /* NewAccountViewController.swift in Sources */,
+				04777E452B176CCE00A25310 /* Account+CoreDataProperties.swift in Sources */,
+				04777E412B176CCE00A25310 /* Client+CoreDataProperties.swift in Sources */,
+				043E81C42B18B7F200682D52 /* CreateRequestViewController.swift in Sources */,
+				0453461D2B18566C000E7C76 /* ClientsListViewController.swift in Sources */,
 				04777E2B2B176B2600A25310 /* Clients.xcdatamodeld in Sources */,
+				04777E492B176DE400A25310 /* CoreDataManager.swift in Sources */,
+				043E81BE2B18B35000682D52 /* AccountInfoViewController.swift in Sources */,
+				043E81C02B18B53F00682D52 /* AddServiceViewController.swift in Sources */,
 				04777E232B176B2600A25310 /* SceneDelegate.swift in Sources */,
+				0425A3692B1B442B003D581C /* NewServiceInfoViewController.swift in Sources */,
+				0425A3652B1B3BD7003D581C /* ServiceInfoViewController.swift in Sources */,
+				04777E432B176CCE00A25310 /* Service+CoreDataProperties.swift in Sources */,
+				043E81C22B18B7B500682D52 /* RequestInfoViewController.swift in Sources */,
+				0453461F2B18742B000E7C76 /* NewClientViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
